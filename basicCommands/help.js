@@ -17,42 +17,42 @@ module.exports = {
         url: 'https://discord.gg/FUEHs7RCqz'
     })
      
-      .setDescription(`__**STATS :**__\n\n> **📊 Bot in servers:** ${serverCount}\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [GlaceYT](https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A)**\n\n__**COMMANDS :**__ `)
+      .setDescription(`__**STATS :**__\n\n> **📊 Bot in:** ${serverCount} Servers\n> **🟢 Bot Ping:** ${botPing}ms\n> **👑 Made By [FAIZEN.ExE](https://www.youtube.com/channel/Faizen.Sosuke)**\n\n__**COMMANDS :**__ `)
       .addFields(
       
         {
           name: '▶️  Basic',
-          value: '`avatar`, `owner`, `support`, `invite`, `userinfo`',
+          value: 'avatar, owner, support, invite, userinfo',
           inline: true,
         },
        
         {
           name: '▶️  Music',
-          value: '`play`, `stop`, `seek`,`volume`,`pause`,`resume`,`skip`,`remove`,`shuffle`,`queue`',
+          value: ' Play, Stop, Seek, Volume, Pause, Resume, Skip, Remove, Shuffle, Queue',
           inline: true,
         },
       
         {
           name: '▶️  Fun',
-          value: ' `ascii`, `joke`, `roll`',
+          value: ' Ascii, Joke, Roll',
           inline: true,
         },
       
         {
           name: '▶️  Image',
-          value: '`cat`, `dog`',
+          value: ' Cat, Dog',
           inline: true,
         },
       
         {
           name: '▶️  Anime',
-          value: '`<prefix>animecommands for more info`',
+          value: '?animecommands for more info',
           inline: true,
         },
      
         {
           name: '▶️  Utility',
-          value: '`kick`, `ban`, `serverinfo`,`userinfo`, `clear`',
+          value: ' Kick, Ban, Serverinfo, Userinfo',
           inline: true,
         }
       )
