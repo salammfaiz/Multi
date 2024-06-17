@@ -4,12 +4,12 @@ module.exports = {
     name: 'owner',
     description: 'Bot owner info',
     execute(message, args) {
-        const youtubeLink = 'https://www.youtube.com/@GlaceYT';
-        const InstagramLink = 'https://www.instagram.com/glaceytt';
+        const youtubeLink = 'https://www.youtube.com/@Faizen.Sosuke';
+        const InstagramLink = 'https://www.instagram.com/faizen.frhad';
         const embed = new EmbedBuilder()
             .setColor('#FFFFFF')
             .setTitle(' 🫅 Owner Info')
-            .setDescription(`__**About me**__:\n 🤖 Myself Shiva aka GlaceYT. I am a discord bot developer and web developer. I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n ❤️ [GlceYT](${youtubeLink})\n 💙 [GlaceYTT](${InstagramLink})`)
+            .setDescription(`__**About me**__:\n 🤖 Myself FaizenSosuke. I am Just  a discord Userr . I love playing games, watching anime and building different webserver applications. You will get faster replies on instagram than other social media. Feel free to contact me!\n ❤️ [FaizenSosuke](${youtubeLink})\n 💙 [faizen.frhad](${InstagramLink})`)
             .setTimestamp();
 
 
