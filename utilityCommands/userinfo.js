@@ -2,7 +2,7 @@ const { EmbedBuilder } = require('discord.js');
 
 module.exports = {
     name: 'userinfo',
-    aliases: ['user', 'uinfo'],
+    aliases: ['user', 'ui'],
     description: 'Get information about a user',
     execute(message, args) {
         // Check if a user was mentioned in the command, or use the message author as the default user
