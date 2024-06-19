@@ -57,21 +57,21 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=6641e8b7&is=66409737&hm=96f69ba8bcde4ca44bf8713e22001e0bafad0335cfd1f57c439a34b4762f0e03&`);
+      .setImage(`https://media.discordapp.net/attachments/1197833256645693453/1252916319020515349/static.png?ex=6673f4c0&is=6672a340&hm=3a88e73e3fab394db362ff769bd423abf84aa9840dcdd63df369066679fb45e2&`);
 
     const button1 = new ButtonBuilder()
       .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+      .setURL('https://www.youtube.com/channel/Faizen.Sosuke')
       .setStyle(ButtonStyle.Link);
 
     const button2 = new ButtonBuilder()
       .setLabel('Discord')
-      .setURL('https://discord.gg/xQF9f9yUEM')
+      .setURL('https://discord.gg/united-city')
       .setStyle(ButtonStyle.Link);
 
     const button3 = new ButtonBuilder()
       .setLabel('Code')
-      .setURL('https://github.com/GlaceYT')
+      .setURL('https://github.com/salammfaiz')
       .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
